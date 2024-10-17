@@ -42,10 +42,10 @@ public class Aluno extends Pessoa {
         return (nota1 + nota2)/2;
     }
     
+    @Override
     public String imprimir() {
         return "\n\n## ALUNO ##"
-                +"\nNome: "+getNome()
-                +"\nCPF: "+getCpf()
+                +super.imprimir()
                 
                 +"\nRA: "+ra
                 +"\nNota 1: "+nota1

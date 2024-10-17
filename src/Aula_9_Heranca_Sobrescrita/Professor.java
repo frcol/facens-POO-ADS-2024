@@ -37,10 +37,10 @@ public class Professor extends Pessoa {
         this.salario = salario;
     }
     
+    @Override
     public String imprimir() {
         return  "\n\n## PROFESSOR ##"
-                +"\nNome: "+getNome()
-                +"\nCPF: "+getCpf()
+                +super.imprimir()
                 
                 +"\nCracha: "+cracha
                 +"\nTipo Vinculo: "+tipoVinculo
