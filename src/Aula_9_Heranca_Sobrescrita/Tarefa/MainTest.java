@@ -26,8 +26,6 @@ public class MainTest {
         //JOptionPane.showMessageDialog(null, msg);
         
         int idade = Integer.parseInt(JOptionPane.showInputDialog("Qual a sua idade?"));
-        JOptionPane.showMessageDialog(null, idade);
-        
-        
+        JOptionPane.showMessageDialog(null, idade);   
     }
 }
